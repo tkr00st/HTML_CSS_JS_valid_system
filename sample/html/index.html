@@ -1,0 +1,76 @@
+<!-- doctype-first -->
+<!--comment--><!DOCTYPE HTML>
+
+<!-- doctype-html5 -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+
+<!-- head-script-disabled -->
+<script src="src.js"></script>
+
+<!-- title-require -->
+</head>
+
+<body>
+
+<!-- alt-require -->
+<img src="test.png">
+<input type="image">
+<area shape="circle" coords="180,139,14" href="test.html">
+
+<!-- attr-lowercase -->
+<img SRC="test.png" ALT="test">
+
+<!-- attr-no-duplication -->
+<img src="a.png" src="b.png" alt="">
+
+<!-- attr-unsafe-chars -->
+<a href="https://vimeo.com/album/1951235/video/56931059‎\u0009‎">Sud Web 2012</a>
+
+<!-- attr-value-double-quotes -->
+<a href='' title=abc></a>
+
+<!-- empty-tag-not-self-closed -->
+<br/>
+<hr/>
+
+<!-- id-class-ad-disabled -->
+<a id="ad-contents">ad</a>
+<div class="ad_contents">ad</div>
+
+<!-- id-unique -->
+<section id="BLOG_SECTION"></section>
+<section id="BLOG_SECTION"></section>
+
+<!-- space-tab-mixed-disabled -->
+	 <div></div>
+
+<!-- spec-char-escape -->
+<span>aaa>bbb<ccc</span>
+
+<!-- src-not-empty -->
+<img src />
+<script src=""></script>
+<script src></script>
+<link href="" type="text/css">
+<link href type="text/css">
+<embed src="">
+<embed src>
+<bgsound src=""></bgsound>
+<bgsound src></bgsound>
+<iframe src=""></iframe>
+<iframe src></iframe>
+<object data=""></object>
+<object data></object>
+
+<!-- tag-pair -->
+<ul><li></ul>
+<ul><li></ul>
+
+<!-- tagname-lowercase -->
+<SPAN><BR></SPAN>
+
+</body>
+</html>
