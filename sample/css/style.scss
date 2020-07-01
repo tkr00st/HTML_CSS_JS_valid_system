@@ -1,0 +1,18 @@
+@include '_normal';
+
+.sample {
+  & .test {
+    background-color: #333333;
+    border-left: 1px solid #FF0000;
+    display: flex;
+  }
+
+}
+
+.test {}
+
+.test {
+  padding: 10px;margin: 0 auto;
+  color: #f00;
+background-color: #fff;
+}

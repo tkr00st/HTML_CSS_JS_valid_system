@@ -1,0 +1,32 @@
+{
+  "name": "html_css_js_valid_system",
+  "version": "1.0.0",
+  "description": "HTML、CSS、JSそれぞれに、validatorを通す仕組みを実装する",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.4",
+    "stylelint": "^13.3.2",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkr00st/HTML_CSS_JS_valid_system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkr00st/HTML_CSS_JS_valid_system/issues"
+  },
+  "homepage": "https://github.com/tkr00st/HTML_CSS_JS_valid_system#readme"
+}
